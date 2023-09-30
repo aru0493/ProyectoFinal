@@ -16,15 +16,16 @@
 
 }
 
+/*carrusel*/
 .carousel-inner {
     margin-bottom: 10px;
 }
 
 /*Títulos*/
 .req {
-    font-size: larger;
+    font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 10px;
+    margin-top: 20px;
     font-weight: bolder;
 
 }
@@ -36,6 +37,8 @@
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
+    margin-bottom: 10px;
+    
 }
 
 /* botón doná */
@@ -45,6 +48,8 @@
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
+    margin-bottom: 10px;
+    
 }
 
 /* botón formulario */
@@ -52,25 +57,22 @@
     background-color: indianred;
     color: black;
     border-radius: 5px;
+    margin-top: 10px;
+    width: 250px;
 }
 
+/* mitad foto y texto */
 .refugio {
     display: flex;
     flex-direction: row-reverse;
     text-align: start;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     height: 300px;
     box-shadow: 0px 0px 7px 0px;
 
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: auto;
-    padding: 2px;
-    grid-gap: 5px;
-}
-
+/* tarjetas */
 .rescatados {
     display: flex;
     flex-direction: column;
@@ -79,7 +81,7 @@
     width: 400px;
 }
 
-
+/* tarjetas */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -87,12 +89,22 @@
     grid-gap: 5px;
 }
 
+/* tarjetas */
 .grid-item {
     border: outset;
     border-width: 2px;
     border-color: coral;
 }
 
-/*@media (max-width: ){
+/* formularios */
+.form{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 1000px;
+    
+}
 
-}*/
+/* medios para donar */
+.dona{
+    font-weight: bolder;
+}
