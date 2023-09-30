@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+/* Barra de navegación */
+.container-fluid{
+    display: flex;
+    float: center;
+    justify-content: space-between;
+    background-color: coral;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+}

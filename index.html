@@ -1,21 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patitas Callejeras</title>
+    <link rel="stylesheet" href="miestilo.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
+        <!--barra de navegación-->
 
+        <div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <img src="images/logo3.ico" alt="Logo patitas callejeras" width="80" height="74"
+                        class="d-inline-block align-text-top" />
+                    <div class="container-md">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#form-adopcion">Adoptá</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#form-transito">Tránsito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#voluntario">Voluntariado</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dona">Doná</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    
-    <main>
 
+    <main>
+        <!--Carrusel-->
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="images/Slide/gatoadulto.png" class="d-block w-100" alt="Gato adoptado" />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/Slide/gatoniño.png" class="d-block w-100" alt="Gato y niño" />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/Slide/gatoniño2.png" class="d-block w-100" alt="Gato y niño" />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="images/Slide/gatoadulto2.png" class="d-block w-100" alt="Gato adoptado" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!--Quiénes somos-->
+
+  <section id="quienes-somos">
+    <p class="req">Quiénes somos</p>
+    <div>
+      <p>Patitas Callejeras es una organización sin fines de lucro formada por un grupo de voluntarios amantes de los
+        gatos. El lugar principal de rescates y tránsitos se encuentra en Rosario y lo lleva adelante Carolina,
+        fundadora
+        de la agrupación. No contamos con un refugio ni espacio propio, sino que las puertas de nuestros hogares están
+        abiertas a los que más lo necesitan.</p>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="refugio">
+
+      <p>Todas nuestras labores son posibles gracias al aporte de madrinas y padrinos, quienes colaboran con la
+        agrupación
+        de manera mensual o realizando donaciones puntuales para casos concretos. También tenemos un equipo de
+        voluntarios que colaboran con distintas tareas, entre ellas con traslados
+        solidarios. Al día de la fecha hemos dado más de 100 gatos en adopción y castrados de distintas colonias.</p>
+      <img src="images/f.elconfidencial.com_original_1e7_b0b_8f0_1e7b0b8f0915f14d8516788569bb4f95.png"
+        alt="Refugio de gatos">
+        
+    </div>
+  </section>
+
+  <section>
+    <p class="req">Conoce a nuestros rescataditos</p>
+
+      <div class="grid-container">
+        <div class="grid-item"><img src="images/71421.png" alt="Gato negro rescatado" width="395px" height="395px">
+          <h4>Roma</h4>
+          <p>Sexo: <i class="fa-solid fa-venus fa-lg" style="color: #030303;"></i></p>
+          <p>Edad: 3 meses</p></div>
+        <div class="grid-item"><img src="images/92408.png" alt="Gato negro rescatdo" width="395px" height="395px">
+          <h4>Pisa</h4>
+          <p>Sexo: <i class="fa-solid fa-mars fa-lg" style="color: #111213;"></i></p>
+          <p>Edad: 3 meses</p></div>
+        <div class="grid-item"><img src="images/69166.png" alt="Gato negro rescatado" width="395px" height="395px">
+          <h4>Milan</h4>
+          <p>Sexo: <i class="fa-solid fa-mars fa-lg" style="color: #111213;"></i></p>
+          <p>Edad: 3 meses</p></div>
+        
+      </div>
+     
+
+  </section>
+
+  <!--Adoptá-->
+
+  <section id="form-adopcion">
+    <div>
+        <form action="index2.html" method="post" target="_blank">
+          <!--ver clase para saber que es _blank-->
+          <p class="req"><strong>Formulario de adopción</strong></p>
+          <!--Personalizar estilo con h2 o negrita, tamaño-->
+          <input class="form" type="text" name="Nombre" placeholder="Nombre" required /> <br />
+          <input class="form" type="text" name="Apellido" placeholder="Apellido" required />
+          <br />
+          <input class="form" type="text" name="Edad" placeholder="Edad" required /> <br />
+          <input class="form" type="text" name="Localidad" placeholder="Localidad" required />
+          <br />
+          <input class="form" type="text" name="Código postal" placeholder="Código postal" required />
+          <br />
+          <input class="form" type="text" name="Dirección" placeholder="Dirección" required />
+          <br />
+          <input class="form" type="text" name="Provincia" placeholder="Provincia" required />
+          <br />
+          <input class="form" type="text" name="Teléfono" placeholder="Teléfono" required />
+          <br />
+          <input class="form" type="email" name="Email" placeholder="Email" required /> <br />
+          <button class="boton" type="submit"> Enviar </button>
+        </form>
+      </div>
+    </section>
+
+    <!--Tránsito-->
+
+  <section id="form-transito">
+    <div>
+   <div>
+        <form action="index3.html" method="post" target="_blank">
+          <p class="req"><strong>Formulario de tránsito</strong></p>
+          <input class="form" type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" required />
+          <br />
+          <input class="form" type="text" name="Edad" placeholder="Edad" required /> <br />
+          <input class="form" type="text" name="Teléfono" placeholder="Teléfono" required />
+          <br />
+          <input class="form" type="email" name="Email" placeholder="Email" required /> <br />
+          <input class="form" type="text" name="Dirección" placeholder="Dirección" required />
+          <br />
+          <input class="form" type="text" name="Localidad" placeholder="Localidad" required />
+          <br />
+          <p>¿Transitaste gatos anteriormente?</p>
+          <input class="form" type="text" name="Transitaste" required />
+          <p>
+            Si lo hiciste, ¿Pudiste tener al gato hasta que consiguió hogar
+            definitivo? Caso conntrario, ¿Qué ocurrió con el gato?
+          </p>
+          <input class="form" type="text" name="Hogar" required />
+          <p>
+            ¿Cuánto tiempo, como máximo, estarías dispuesto a tener al gato hasta
+            que encuentre hogar definitivo?
+          </p>
+          <input class="form" type="text" name="Tiempo" required />
+          <p>¿Qué tipo de vivienda tenés?</p>
+          <select class="form" name="Seleccioná" required>
+            <option value="casa">Casa</option>
+            <option value="departamento">Departamento</option>
+          </select>
+          <p>¿Tenés balcón, patio o jardín?</p>
+          <select class="form" name="Seleccioná" required>
+            <option value="si">Si</option>
+            <option value="no">No</option>
+          </select>
+          <p>¿Tenés otros animales?(Indica cuáles y cuántos)</p>
+          <input class="form" type="text" name="Animales" required /> <br>
+          <button class="boton" type="submit"> Enviar </button>
+        </form>
+      </div>
+  </section>
+
+  <!--Voluntariado-->
+
+  <section id="voluntario">
+    <div>
+      <p class="req">Voluntariado</p>
+      <p class="voluntario">
+        Si querés ser voluntario y formar parte de esta pequeña familia,
+        completá tus datos a continuación
+      </p>
+      <form action="" method="post" target="_blank">
+        <input class="form" type="text" name="Nombre" placeholder="Nombre" required /> <br />
+        <input class="form" type="text" name="Apellido" placeholder="Apellido" required />
+        <br />
+        <input class="form" type="text" name="Edad" placeholder="Edad" required /> <br />
+        <input class="form" type="text" name="Teléfono" placeholder="Teléfono" required />
+        <br />
+        <input class="form" type="email" name="Email" placeholder="Email" required /> <br />
+        <button class="boton" type="submit"> Enviar </button>
+      </form>
+    </div>
+  </section>
+
+  <!--Doná-->
+
+  <section id="dona">
+    <div>
+      <p class="req">Doná</p>
+      <p>Mercado Pago</p>
+      <p>Alias: **************</p>
+      <p>CVU: *****************</p>
+      <p>Email: **************</p>
+    </div>
+
+    <input class="btn1" type="submit" value="Invitame un catfecito"  />
+    
+    <p><strong>Débito automático mensual</strong></p>
+    <div class="botondona">
+      <input class="btn2" type="submit" value="DONÁ $100" />
+      <input class="btn2" type="submit" value="DONÁ $200" />
+      <input class="btn2" type="submit" value="DONÁ $300" />
+      <input class="btn2" type="submit" value="DONÁ $400" />
+      <input class="btn2" type="submit" value="DONÁ $500" />
+      <input class="btn2" type="submit" value="DONÁ $600" />
+      <input class="btn2" type="submit" value="DONÁ $700" />
+      <input class="btn2" type="submit" value="DONÁ $800" />
+      <input class="btn2" type="submit" value="DONÁ $900" />
+      <input class="btn2" type="submit" value="DONÁ $1000" />
+      <input class="btn2" type="submit" value="DONÁ $1500" />
+      <input class="btn2" type="submit" value="DONÁ $2000" />
+    </div>
+  </section>
+
+  <!--Contacto-->
+
+  <section id="contacto">
+    <div>
+      <p class="req">Contacto</p>
+      <form>
+        <input class="form" type="email" name="Email" placeholder="Email" required />
+        <p>Mensaje</p>
+        <textarea class="texto"></textarea> <br>
+        <button class="boton" type="submit"> Enviar </button> <i class="fa-brands fa-whatsapp fa-2xl" style="color: #41c31d;"></i>
+      </form>
+      
+    </div>
+  </section>
     </main>
 
     <footer>
-
+        <div>
+            <ul>
+              <li>
+                <a href="#">Preguntas frecuentes</a>
+              </li>
+      
+              <li>
+                <a href="#">Términos y condiciones</a>
+              </li>
+              <i class="fa-brands fa-instagram fa-xl" style="color: #121112;"></i>
+              <i class="fa-brands fa-facebook fa-xl" style="color: #070808;"></i>
+          </div>
+      
+       
     </footer>
 </body>
+
 </html>
