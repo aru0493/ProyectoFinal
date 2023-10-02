@@ -7,7 +7,8 @@
     background-color: coral;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
-    margin: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
+   
 
 }
 
@@ -25,77 +26,42 @@
     color: black;
 }
 
-.fototextocard{
-    display: flex;
-    flex-direction: row;
-    border: dotted;
-    
-}
-
-.fototexto{
-    display: block;
-   
-}
-
-#imagen{
-    width: 50%;
+.textocarrusel{
+    font-weight: bolder;
 }
 
 /*Títulos*/
 .req {
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
+    margin-top: 50px;
     font-weight: bolder;
 
 }
 
-/* botón formulario */
-.boton {
-    background-color: indianred;
-    color: black;
-    border-radius: 5px;
-    margin-top: 10px;
-    
-}
+/* mitad foto, mitad texto */
 
-/* tarjetas */
-.rescatados {
+.fototextocard{
     display: flex;
-    flex-direction: column;
-    text-align: start;
-    border-bottom: double coral;
-    width: 400px;
-}
-
-/* tarjetas */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 2px;
-    grid-gap: 5px;
-}
-
-/* tarjetas */
-.grid-item {
-    border: outset;
-    border-width: 2px;
-    border-color: coral;
-}
-
-/* formularios */
-.form{
-   text-align: center;
+    flex-direction: row;
+    border: 1px solid;
     
 }
 
-/* medios para donar */
-.dona{
-    font-weight: bolder;
-    
-
+.fototexto{
+    display: block;
 }
 
+.card-text{
+    font-size: x-large;
+    
+}
+
+#imagen{
+    width: 50%;
+}
+
+/* tarjetas */
 .cartas{
     display: flex;
     flex-direction: row;
@@ -107,6 +73,26 @@
     text-align: center;
 }
 
+/* botón formulario */
+.boton {
+    background-color: indianred;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}
+
+/* formularios */
+.form{
+   text-align: center;
+}
+
+/* medios para donar */
+.dona{
+    font-weight: bolder; 
+}
+
+/* Estilo botones */
 .btn1, .btn2 {
     display: inline-block;
     padding: 10px 20px;
@@ -116,6 +102,7 @@
     border: 2px solid;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .botondona{
@@ -124,30 +111,36 @@
     gap: 5px;
 }
 
+/* footer */
 .footer{
-    margin-top: 10px;
+    margin-top: 25px;
 }
+
 .navegadorfooter{
     display: flex;
     flex-direction: row;
     gap: 20px;
     align-content: center;
     margin-left: 35%;
+    padding: 5px;
     
 }
+
 .iconofooter{
     cursor: pointer;
+       
 }
 
+/* icono wtp */
 #whatsapp{
-    display: inline;
+    display: inline block;
     position: fixed;
-    left: 88%;
-    top: 90%;
+    left: 95%;
+    top: 88%;
     scale: 1.5;
     color: green;
-    box-shadow: -3px 3px 15px 0px rgba(0, 0, 0, 0.664) !important;
-    border-radius: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.418);
+    border-radius: 50%;
     cursor: pointer;
     
    
