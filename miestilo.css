@@ -4,12 +4,10 @@
     display: flex;
     float: center;
     justify-content: space-between;
-    background-color: coral;
+    background-color: rgb(241, 164, 138);
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     margin: 0px 0px 0px 0px;
-   
-
 }
 
 .navlista{
@@ -32,14 +30,18 @@
 
 /*Títulos*/
 .req {
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 50px;
     font-weight: bolder;
-
+    text-align: center;
 }
 
 /* mitad foto, mitad texto */
+
+.card{
+    background: linear-gradient(to bottom, #f1a48a, #FFFFFF);
+}
 
 .fototextocard{
     display: flex;
@@ -73,13 +75,28 @@
     text-align: center;
 }
 
+.cartash {
+    border: 1px solid #000; /* Agregar un borde entre el texto y la imagen */
+    background: linear-gradient(to bottom, #ee8461, #FFFFFF); /* Fondo en degradado */
+    border-radius: 10px; /* Para bordes redondeados */
+}
+
+.cuerpotarjeta{
+    padding: 20px;
+    border: 1px solid;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 /* botón formulario */
 .boton {
     background-color: indianred;
     color: black;
     border-radius: 5px;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
+    margin-bottom: 10px;
 }
 
 /* formularios */
@@ -90,6 +107,11 @@
 /* medios para donar */
 .dona{
     font-weight: bolder; 
+}
+
+.parrafo{
+    font-size: larger;
+    margin-top: 25px;
 }
 
 /* Estilo botones */
@@ -113,7 +135,8 @@
 
 /* footer */
 .footer{
-    margin-top: 25px;
+    margin-top: 15px;
+    padding-top: 10px;
 }
 
 .navegadorfooter{
@@ -161,3 +184,4 @@
         top: 80%;
     }
 }
+
