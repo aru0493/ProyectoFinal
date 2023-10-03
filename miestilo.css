@@ -191,5 +191,7 @@
         flex-direction: column;
         align-items: center;
     }
+    #whatsapp{
+        top: 91%;
+    }
 }
-
