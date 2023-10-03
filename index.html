@@ -11,6 +11,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="miestilo.css" />
 </head>
 
@@ -150,7 +151,7 @@
 
             <div class="card fototextocard">
                 <img src="images/f.elconfidencial.com_original_1e7_b0b_8f0_1e7b0b8f0915f14d8516788569bb4f95.png"
-                    alt="..." id="imagen">
+                    alt="Refugio de gatos" id="imagen">
                 <div class="card-body">
                     <p class="card-text">Todas nuestras labores son posibles gracias al aporte de madrinas y padrinos,
                         quienes colaboran
@@ -215,19 +216,19 @@
                 <p class="req"><strong>Formulario de adopción</strong></p>
                 <div class="mb-3">
                     <label for="Nombre" class="form-label"></label>
-                    <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                    <input type="text" class="form-control" id="Nombre" placeholder="Nombre" required>
                 </div>
                 <div class="mb-3">
                     <label for="Apellido" class="form-label"></label>
-                    <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                    <input type="text" class="form-control" id="Apellido" placeholder="Apellido" required>
                 </div>
                 <div class="mb-3">
                     <label for="Edad" class="form-label"></label>
-                    <input type="text" class="form-control" id="Edad" placeholder="Edad">
+                    <input type="text" class="form-control" id="Edad" placeholder="Edad" required>
                 </div>
                 <div class="mb-3">
                     <label for="Localidad" class="form-label"></label>
-                    <input type="text" class="form-control" id="Localidad" placeholder="Localidad">
+                    <input type="text" class="form-control" id="Localidad" placeholder="Localidad" required>
                 </div>
                 <div class="mb-3">
                     <label for="Codigo postal" class="form-label"></label>
@@ -235,19 +236,19 @@
                 </div>
                 <div class="mb-3">
                     <label for="Direccion" class="form-label"></label>
-                    <input type="text" class="form-control" id="Direccion" placeholder="Dirección">
+                    <input type="text" class="form-control" id="Direccion" placeholder="Dirección" required>
                 </div>
                 <div class="mb-3">
                     <label for="Provincia" class="form-label"></label>
-                    <input type="text" class="form-control" id="Provincia" placeholder="Provincia">
+                    <input type="text" class="form-control" id="Provincia" placeholder="Provincia" required>
                 </div>
                 <div class="mb-3">
                     <label for="Teléfono" class="form-label"></label>
-                    <input type="number" class="form-control" id="Telefono" placeholder="Teléfono">
+                    <input type="number" class="form-control" id="Telefono" placeholder="Teléfono" required>
                 </div>
                 <div class="mb-3">
                     <label for="Email" class="form-label"></label>
-                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                    <input type="email" class="form-control" id="Email" placeholder="Email"  required>
                 </div>
 
 
@@ -262,43 +263,43 @@
                 <p class="req"><strong>Formulario de tránsito</strong></p>
                 <div class="mb-3">
                     <label for="Nombre y Apellido" class="form-label"></label>
-                    <input type="text" class="form-control" id="NombreApellido" placeholder="Nombre y Apellido">
+                    <input type="text" class="form-control" id="NombreApellido" placeholder="Nombre y Apellido" required>
                 </div>
                 <div class="mb-3">
                     <label for="Edad" class="form-label"></label>
-                    <input type="text" class="form-control" id="Edad" placeholder="Edad">
+                    <input type="text" class="form-control" id="Edad" placeholder="Edad" required>
                 </div>
                 <div class="mb-3">
                     <label for="Localidad" class="form-label"></label>
-                    <input type="text" class="form-control" id="Localidad" placeholder="Localidad">
+                    <input type="text" class="form-control" id="Localidad" placeholder="Localidad" required>
                 </div>
                 <div class="mb-3">
                     <label for="Direccion" class="form-label"></label>
-                    <input type="text" class="form-control" id="Direccion" placeholder="Dirección">
+                    <input type="text" class="form-control" id="Direccion" placeholder="Dirección" required>
                 </div>
                 <div class="mb-3">
                     <label for="Teléfono" class="form-label"></label>
-                    <input type="number" class="form-control" id="Telefono" placeholder="Teléfono">
+                    <input type="number" class="form-control" id="Telefono" placeholder="Teléfono" required>
                 </div>
                 <div class="mb-3">
                     <label for="Email" class="form-label"></label>
-                    <input type="email" class="form-control" id="Email" placeholder="Email">
+                    <input type="email" class="form-control" id="Email" placeholder="Email" required>
                 </div>
                 <div class="mb-3">
                     <label for="Transito" class="form-label">¿Transitaste gatos anteriormente?</label>
-                    <input type="text" class="form-control" id="Transito">
+                    <input type="text" class="form-control" id="Transito" required>
                 </div>
                 <div class="mb-3">
-                    <label for="Transito" class="form-label">Si lo hiciste, ¿Pudiste tener al gato hasta que consiguió
+                    <label for="Hogar" class="form-label">Si lo hiciste, ¿Pudiste tener al gato hasta que consiguió
                         hogar
                         definitivo? Caso conntrario, ¿Qué ocurrió con el gato?</label>
-                    <input type="text" class="form-control" id="Anteriormente">
+                    <input type="text" class="form-control" id="Hogar" required>
                 </div>
                 <div class="mb-3">
-                    <label for="Transito" class="form-label">¿Cuánto tiempo, como máximo, estarías dispuesto a tener al
+                    <label for="Tiempo" class="form-label">¿Cuánto tiempo, como máximo, estarías dispuesto a tener al
                         gato hasta
                         que encuentre hogar definitivo?</label>
-                    <input type="text" class="form-control" id="Tiempo">
+                    <input type="text" class="form-control" id="Tiempo" required>
                 </div>
                 <div class="mb-3">
                     <div class="mb-3">
@@ -320,7 +321,7 @@
                         <div class="mb-3">
                             <label for="Animales" class="form-label">¿Tenés otros animales?(Indica cuáles y
                                 cuántos)</label>
-                            <input type="text" class="form-control" id="Animales">
+                            <input type="text" class="form-control" id="Animales" required>
                         </div>
                         <button type="submit" class="btn btn-danger boton">Enviar</button>
             </form>
@@ -339,23 +340,23 @@
                 <form action="">
                     <div class="mb-3">
                         <label for="Nombre" class="form-label"></label>
-                        <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
+                        <input type="text" class="form-control" id="Nombre" placeholder="Nombre" required>
                     </div>
                     <div class="mb-3">
                         <label for="Apellido" class="form-label"></label>
-                        <input type="text" class="form-control" id="Apellido" placeholder="Apellido">
+                        <input type="text" class="form-control" id="Apellido" placeholder="Apellido" required>
                     </div>
                     <div class="mb-3">
                         <label for="Edad" class="form-label"></label>
-                        <input type="text" class="form-control" id="Edad" placeholder="Edad">
+                        <input type="text" class="form-control" id="Edad" placeholder="Edad" required>
                     </div>
                     <div class="mb-3">
                         <label for="Telefono" class="form-label"></label>
-                        <input type="number" class="form-control" id="Teléfono" placeholder="Dirección">
+                        <input type="number" class="form-control" id="Teléfono" placeholder="Dirección" required>
                     </div>
                     <div class="mb-3">
                         <label for="Email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                        <input type="email" class="form-control" id="Email" placeholder="Email" required>
                     </div>
 
                     <button type="submit" class="btn btn-danger boton">Enviar</button>
@@ -402,7 +403,7 @@
                 <form action="">
                     <div class="mb-3">
                         <label for="Email" class="form-label"></label>
-                        <input type="email" class="form-control" id="Email" placeholder="Email">
+                        <input type="email" class="form-control" id="Email" placeholder="Email" required>
                     </div>
                     <div class="mb-3">
                         <label for="Texto" class="form-label"></label>
@@ -412,7 +413,7 @@
                     <button type="submit" class="btn btn-danger boton">Enviar</button>
                 </form>
         </section>
-
+        
         <i class="fa-brands fa-whatsapp fa-2xl" style="color: #41c31d;" id="whatsapp"></i>
 
     </main>
