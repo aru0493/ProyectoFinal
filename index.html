@@ -36,6 +36,9 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#quiensoy">Quiénes somos</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#form-adopcion">Adoptá</a>
                             </li>
                             <li class="nav-item">
@@ -49,9 +52,6 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contacto">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#quiensoy">Quiénes somos</a>
                             </li>
                         </ul>
 
@@ -71,44 +71,46 @@
                 <div class="carousel-item active" data-bs-interval="5000">
                     <img src="images/Slide/gatoadulto.png" class="d-block w-100" alt="Gato adoptado" />
                     <div class="carousel-caption d-none d-md-block carruselheader">
-                       
+
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
                     <img src="images/Slide/gatoniño.png" class="d-block w-100" alt="Gato y niño" />
                     <div class="carousel-caption d-none d-md-block carruselheader">
-                        
+
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
                     <img src="images/Slide/gatoniño2.png" class="d-block w-100" alt="Gato y niño" />
                     <div class="carousel-caption d-none d-md-block carruselheader">
-                       
-                </div>
-                <div class="carousel-item" data-bs-interval="5000">
-                    <img src="images/Slide/gatoadulto2.png" class="d-block w-100" alt="Gato adoptado" />
-                    <div class="carousel-caption d-none d-md-block carruselheader">
-                        
+
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="images/Slide/gatoadulto2.png" class="d-block w-100" alt="Gato adoptado" />
+                        <div class="carousel-caption d-none d-md-block carruselheader">
+
+                        </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-<!-- Quiénes somos -->
+            <!-- Quiénes somos -->
 
-        <section class="container qui" >
-            <div class="card" id="quiensoy">
-                <div class="card-body quienessomos" >
+            <section class="container qui" id="quiensoy">
+
+
+                <div class="card-body quienessomos card">
+                    <p class="card-text">
                     <p class="quien">Quiénes somos</p>
 
                     Somos una organización sin fines de lucro
@@ -123,11 +125,14 @@
                     nuestros
                     hogares están
                     abiertas a los que más lo necesitan.
+                    </p>
                 </div>
-              </div>
+        </div>
+
         </section>
 
         <!-- Mitad foto, mitad texto -->
+
         <section class="container fototexto">
 
             <div class="card fototextocard">
@@ -161,7 +166,6 @@
                     <div class="card-body cuerpotarjeta">
                         <h4>Roma</h4>
                         <p class="card-text">
-
                         <p>Sexo: <i class="fa-solid fa-venus fa-lg" style="color: #030303;"></i></p>
                         <p>Edad: 3 meses</p>
                         </p>
@@ -229,7 +233,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="Email" class="form-label"></label>
-                    <input type="email" class="form-control" id="Email" placeholder="Email"  required>
+                    <input type="email" class="form-control" id="Email" placeholder="Email" required>
                 </div>
 
 
@@ -244,7 +248,8 @@
                 <p class="req"><strong>Formulario de tránsito</strong></p>
                 <div class="mb-3">
                     <label for="Nombre y Apellido" class="form-label"></label>
-                    <input type="text" class="form-control" id="NombreApellido" placeholder="Nombre y Apellido" required>
+                    <input type="text" class="form-control" id="NombreApellido" placeholder="Nombre y Apellido"
+                        required>
                 </div>
                 <div class="mb-3">
                     <label for="Edad" class="form-label"></label>
@@ -394,7 +399,7 @@
                     <button type="submit" class="btn btn-danger boton">Enviar</button>
                 </form>
         </section>
-        
+
         <i class="fa-brands fa-whatsapp fa-2xl" style="color: #41c31d;" id="whatsapp"></i>
 
     </main>
