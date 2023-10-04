@@ -15,20 +15,37 @@
     
 }
 
-/*carrusel*/
+/*Carrusel*/
 .carousel-inner {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
 }
 
 .carruselheader{
     color: black;
 }
 
-.textocarrusel{
+/* Quienes somos */
+.quienessomos{
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+.quien{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
+    text-align: center;
+}
+
+.qui{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*Títulos*/
+
 .req {
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
@@ -37,7 +54,8 @@
     text-align: center;
 }
 
-/* mitad foto, mitad texto */
+
+/* Mitad foto, mitad texto */
 
 .card{
     background: linear-gradient(to bottom, #f1a48a, #FFFFFF);
@@ -55,7 +73,7 @@
 }
 
 .card-text{
-    font-size: x-large;
+    font-size: large;
     
 }
 
@@ -63,7 +81,7 @@
     width: 50%;
 }
 
-/* tarjetas */
+/* Tarjetas */
 .cartas{
     display: flex;
     flex-direction: row;
@@ -78,7 +96,7 @@
 .cartash {
     border: 1px solid #000; /* Agregar un borde entre el texto y la imagen */
     background: linear-gradient(to bottom, #ee8461, #FFFFFF); /* Fondo en degradado */
-    border-radius: 10px; /* Para bordes redondeados */
+    border-radius: 10px; 
 }
 
 .cuerpotarjeta{
@@ -90,7 +108,7 @@
     border-bottom-right-radius: 10px;
 }
 
-/* botón formulario */
+/* Botón formulario */
 .boton {
     background-color: indianred;
     color: black;
@@ -99,12 +117,12 @@
     margin-bottom: 10px;
 }
 
-/* formularios */
+/* Formularios */
 .form{
    text-align: center;
 }
 
-/* medios para donar */
+/* Medios para donar */
 .dona{
     font-weight: bolder; 
 }
@@ -133,7 +151,11 @@
     gap: 5px;
 }
 
-/* footer */
+.btn1{
+    margin-top: 20px;
+}
+
+/* Footer */
 .footer{
     margin-top: 15px;
     padding-top: 10px;
@@ -154,7 +176,7 @@
        
 }
 
-/* icono wtp */
+/* Icono wtp */
 #whatsapp{
     display: inline block;
     position: fixed;
@@ -195,3 +217,4 @@
         top: 91%;
     }
 }
+
