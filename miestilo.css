@@ -1,11 +1,15 @@
 /* Fondo de página */
+
 body{
     background-image: url(images/151206820-lindo-gato-patas-huella-fondo-transparente-patrón-repetitivo-fondo-de-pantalla-lindo-fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
+/* --------------------------------------- */
+
 /* Barra de navegación */
+
 .container-fluid {
     display: flex;
     float: center;
@@ -16,12 +20,17 @@ body{
     margin: 0px 0px 0px 0px;
 }
 
+/* --------------------------------------- */
+
 .navlista{
     margin-left: 10%;
     
 }
 
+/* --------------------------------------- */
+
 /*Carrusel*/
+
 .carousel-inner {
     margin-bottom: 20px;
 
@@ -31,7 +40,10 @@ body{
     color: black;
 }
 
+/* --------------------------------------- */
+
 /* Quienes somos */
+
 .quienessomos{
     border: 1px solid;
     border-radius: 5px;
@@ -48,7 +60,10 @@ body{
 .qui{
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-top: 100px;
 }
+
+/* --------------------------------------- */
 
 /*Títulos*/
 
@@ -61,6 +76,7 @@ body{
     background-color: bisque;
 }
 
+/* --------------------------------------- */
 
 /* Mitad foto, mitad texto */
 
@@ -87,6 +103,8 @@ body{
 #imagen{
     width: 50%;
 }
+
+/* --------------------------------------- */
 
 /* Tarjetas */
 
@@ -117,6 +135,12 @@ body{
     border-bottom-right-radius: 10px;
 }
 
+.cartaspadre{
+    padding-top: 38px;
+}
+
+/* --------------------------------------- */
+
 /* Botón formulario */
 .boton {
     background-color: bisque;
@@ -127,19 +151,39 @@ body{
     border-color: black;
     
 }
+
 .boton:hover{
     background-color: burlywood;
     color: black;
     border-color: burlywood;
 }
 
+/* --------------------------------------- */
+
 /* Formularios */
 .form{
    text-align: center;
+   padding-top: 38px;
 }
 
+.input{
+    box-shadow: none;
+    border-color: black;
+}
+
+.input:focus{
+    box-shadow: none;
+    border-color: black;
+    background-color: bisque;
+}
+
+/* --------------------------------------- */
 
 /* Medios para donar */
+
+.donap{
+    padding-top: 38px;
+}
 .dona{
     font-weight: bolder; 
 }
@@ -148,6 +192,8 @@ body{
     font-size: larger;
     margin-top: 25px;
 }
+
+/* --------------------------------------- */
 
 /* Estilo botones */
 .btn1, .btn2 {
@@ -184,6 +230,8 @@ body{
     margin-top: 20px;
 }
 
+/* --------------------------------------- */
+
 /* Footer */
 .footer{
     margin-top: 15px;
@@ -205,6 +253,8 @@ body{
        
 }
 
+/* --------------------------------------- */
+
 /* Icono wtp */
 #whatsapp{
     display: inline block;
@@ -219,6 +269,8 @@ body{
     
    
 }
+
+/* --------------------------------------- */
 
 @media (max-width: 500px) {
     .logogato{
