@@ -63,6 +63,9 @@ body{
     padding-top: 100px;
 }
 
+.textoquienes{
+    text-align: start;
+}
 /* --------------------------------------- */
 
 /*Títulos*/
@@ -97,7 +100,7 @@ body{
 
 .card-text{
     font-size: large;
-    
+    text-align: start;
 }
 
 #imagen{
