@@ -166,6 +166,10 @@ body{
    padding-top: 38px;
 }
 
+.selecciona{
+    padding: 0px!important;
+}
+
 .input{
     box-shadow: none;
     border-color: black;
