@@ -68,6 +68,7 @@ body{
 
 .textoquienes{
     text-align: start;
+    font-size: large;
 }
 /* --------------------------------------- */
 
@@ -172,6 +173,9 @@ body{
    padding-top: 38px;
 }
 
+.form-label{
+    background-color: bisque;
+}
 .selecciona{
     padding: 0px!important;
 }
@@ -199,13 +203,22 @@ body{
 }
 
 .parrafo{
-    font-size: larger;
+    font-size: x-large;
     margin-top: 25px;
 }
 
 /* --------------------------------------- */
 
-/* Estilo botones */
+/* Voluntariado */
+
+.voluntario{
+    background-color: bisque;
+    font-size: larger;
+}
+
+/* --------------------------------------- */
+
+/* Estilo botones dona*/
 .btn1, .btn2 {
     display: inline-block;
     padding: 10px 20px;
@@ -280,7 +293,6 @@ body{
    
 }
 
-
 /* --------------------------------------- */
 
 @media (max-width: 500px) {
@@ -304,7 +316,10 @@ body{
         font-family: 'Times New Roman', Times, serif;
     }
     .qui{
-        padding-top: 50px;
+        padding-top: 70px;
+    }
+    .carousel-inner{
+        margin-top: 40px;
     }
 }
 
