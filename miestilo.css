@@ -20,7 +20,9 @@ body{
     margin: 0px 0px 0px 0px;
 }
 
-
+.nombrep{
+    display: none;
+}
 
 
 .navlista{
@@ -309,16 +311,20 @@ body{
         left: 90%;
     }
     .nombrep{
-        
+        display: flex;
         margin-top: 10px;
         font-family: 'Times New Roman', Times, serif;
-        margin-right: 40%;
+        justify-content: left;
     }
     .qui{
         padding-top: 70px;
     }
     .carousel-inner{
         margin-top: 40px;
+    }
+    .nombrep{
+        display: flex;
+        text-align: left;
     }
 }
 
